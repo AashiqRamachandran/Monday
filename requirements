@@ -1,6 +1,5 @@
 Note: all the below mentioned tools must be fully set up on the target server manually. External repos
-such as spoofcheck cloud enum flightsim's repos are in this folder. Follow each instruction respectively
-
+such as spoofcheck cloud enum flightsim's repos are to be setup separately in the root folder of monday
 python3
 golang
 bash 
