@@ -1,0 +1,431 @@
+
+AlphaSOC Network Flight Simulator™  (https://github.com/alphasoc/flightsim)
+The IP address of the network interface is 192.168.1.12
+The current time is 29-Aug-20 11:37:54
+
+11:37:54 [c2] Preparing a random sample of C2 domains
+11:37:55 [c2] Resolving f0389792.xsph.ru
+11:37:56 [c2] Resolving remote1.ga
+11:37:57 [c2] Resolving 3435gfdsgsh34525vfdsgrdsg45235.xyz
+11:37:58 [c2] Resolving background1.xyz
+11:37:59 [c2] Resolving samwellgs.com
+11:38:00 [c2] Done (5/5)
+
+11:38:00 [c2] Preparing a random sample of C2 IP:port pairs
+11:38:00 [c2] Connecting to 181.40.122.122:8080
+11:38:01 [c2] Connecting to 185.165.153.116:7866
+11:38:02 [c2] Connecting to 85.25.92.96:8080
+11:38:03 [c2] Connecting to 185.140.53.219:8891
+11:38:04 [c2] Connecting to 173.62.217.22:443
+11:38:05 [c2] Done (5/5)
+
+11:38:05 [dga] Generating a list of DGA domains
+11:38:05 [dga] Resolving itgmvpxh.info
+11:38:06 [dga] Resolving hjnsymln.biz
+11:38:07 [dga] Resolving vegjrinr.space
+11:38:08 [dga] Resolving xemtluik.space
+11:38:09 [dga] Resolving krwtnqto.space
+11:38:10 [dga] Resolving zksqmlhr.biz
+11:38:11 [dga] Resolving shfwccba.biz
+11:38:12 [dga] Resolving nbxhlzwf.space
+11:38:13 [dga] Resolving uesrsbae.space
+11:38:14 [dga] Resolving uronnldz.space
+11:38:15 [dga] Resolving ozuphqix.biz
+11:38:16 [dga] Resolving mzlmxbic.space
+11:38:17 [dga] Resolving mttnbpux.space
+11:38:18 [dga] Resolving vymvkgzj.space
+11:38:19 [dga] Resolving ixsezjto.info
+11:38:20 [dga] Done (15/15)
+
+11:38:20 [miner] Preparing a random sample of cryptomining IP:port pairs
+11:38:20 [miner] Connecting to 202.155.252.126:443
+11:38:21 [miner] Connecting to 163.172.226.114:3333
+11:38:22 [miner] Connecting to 46.30.167.213:7777
+11:38:23 [miner] Connecting to 46.30.167.213:8888
+11:38:24 [miner] Connecting to 202.155.252.123:443
+11:38:25 [miner] Done (5/5)
+
+11:38:25 [scan] Preparing a random sample of RFC 5737 destinations
+11:38:25 [scan] Port scanning 198.51.100.60
+11:38:28 [scan] Port scanning 198.51.100.63
+11:38:31 [scan] Port scanning 198.51.100.69
+11:38:34 [scan] Port scanning 198.51.100.113
+11:38:37 [scan] Port scanning 198.51.100.116
+11:38:40 [scan] Port scanning 198.51.100.177
+11:38:43 [scan] Port scanning 198.51.100.183
+11:38:46 [scan] Port scanning 198.51.100.210
+11:38:49 [scan] Port scanning 198.51.100.229
+11:38:52 [scan] Port scanning 198.51.100.236
+11:38:55 [scan] Done (10/10)
+
+11:38:55 [sink] Preparing a random sample of sinkholed domains
+11:38:56 [sink] Resolving m32.xyufsmd.cc
+11:38:57 [sink] Resolving m18.wchqzkg.me
+11:38:58 [sink] Resolving m37.qebtcjm.me
+11:38:59 [sink] Resolving m38.lgzoido.me
+11:39:00 [sink] Resolving m35.ptdzxbs.cc
+11:39:01 [sink] Done (5/5)
+
+11:39:01 [sink] Preparing a random sample of sinkholed IP:port pairs
+11:39:01 [sink] Connecting to 141.239.151.46:8000
+11:39:02 [sink] Connecting to 139.162.120.150:3541
+11:39:03 [sink] Connecting to 157.122.62.204:2083
+11:39:04 [sink] Connecting to 141.239.151.46:8447
+11:39:05 [sink] Connecting to 58.158.177.102:3780
+11:39:06 [sink] Done (5/5)
+
+11:39:06 [spambot] Preparing a random sample of Internet mail servers
+11:39:08 [spambot] Connecting to smtp.tin.it:25
+11:39:09 [spambot] Connecting to eur.olc.protection.outlook.com:25
+11:39:10 [spambot] Connecting to mx-apac.mail.gm0.yahoodns.net:25
+11:39:11 [spambot] Connecting to mx01.mail.com:25
+11:39:12 [spambot] Connecting to mx-aol.mail.gm0.yahoodns.net:25
+11:39:13 [spambot] Connecting to freemx3.sinamail.sina.com.cn:25
+11:39:14 [spambot] Connecting to vip-us-br-mx.terra.com:25
+11:39:15 [spambot] Connecting to mx.email.it:25
+11:39:16 [spambot] Connecting to mx.yandex.ru:25
+11:39:17 [spambot] Connecting to nam.olc.protection.outlook.com:25
+11:39:18 [spambot] Done (10/10)
+
+11:39:18 [tunnel-dns] Simulating DNS tunneling via *.sandbox.alphasoc.xyz
+11:39:28 [tunnel-dns] Done (1/1)
+
+11:39:28 [tunnel-icmp] Simulating ICMP tunneling via 35.237.9.45
+11:39:48 [tunnel-icmp] ERROR: 35.237.9.45: read ip4 192.168.1.12: i/o timeout
+11:39:48 [tunnel-icmp] Done (0/1)
+
+All done! Check your SIEM for alerts using the timestamps and details above.
+
+Kernel local: 5.5.0
+
+Searching among 65 exploits...
+
+Possible Exploits:
+* System-wide ASLR (kernel.randomize_va_space): [32mOn (Setting: 2)[m
+
+  Description - Make the addresses of mmap base, heap, stack and VDSO page randomized.
+  This, among other things, implies that shared libraries will be loaded to random 
+  addresses. Also for PIE-linked binaries, the location of code start is randomized.
+
+  See the kernel file 'Documentation/sysctl/kernel.txt' for more details.
+
+* Does the CPU support NX: [32mYes[m
+
+         COMMAND    PID RELRO             STACK CANARY           NX/PaX        PIE
+         systemd      1 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         lightdm   1346 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         systemd   1368 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+        (sd-pam)   1369 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+      pulseaudio   1387 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+   xfce4-session   1393 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+     dbus-daemon   1397 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+       ssh-agent   1425 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ at-spi-bus-laun   1435 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+     dbus-daemon   1440 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         xfconfd   1444 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ at-spi2-registr   1450 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+       gpg-agent   1456 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           xfwm4   1458 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           gvfsd   1461 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+      gvfsd-fuse   1466 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+     xfsettingsd   1485 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         upowerd   1526 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+     xfce4-panel   1663 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+          Thunar   1678 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+       xfdesktop   1701 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ panel-1-whisker   1704 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ xfce4-power-man   1708 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ panel-15-systra   1714 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ panel-16-status   1715 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ panel-17-pulsea   1716 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ panel-18-notifi   1720 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ panel-19-power-   1721 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ panel-21-action   1722 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ panel-23-action   1723 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+       nm-applet   1724 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ xfce4-power-man   1730 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ polkit-gnome-au   1736 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           teams   1755 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+   dconf-service   1770 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+    light-locker   1771 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           xcape   1775 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           xiccd   1783 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+   xfce4-notifyd   1784 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+  blueman-applet   1788 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [31mNo PIE               [m   
+           agent   1880 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+          colord   1884 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ gvfs-udisks2-vo   1903 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         udisksd   1907 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ gvfs-afc-volume   1930 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ gvfs-goa-volume   1935 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ gvfs-mtp-volume   1939 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ gvfs-gphoto2-vo   1943 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+    blueman-tray   1956 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [31mNo PIE               [m   
+     gvfsd-trash   1959 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           obexd   1974 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+  gvfsd-metadata   1975 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           teams   1979 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           teams   2014 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           teams   2037 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           teams   2090 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+     firefox-esr   2110 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+           teams   2172 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+             Web         Content   2288 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+   WebExtensions   2351 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+             Web         Content   2429 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+             Web         Content   2478 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+       qterminal   2529 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            bash   2545 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ systemd-journal    365 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+   systemd-udevd    382 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            atom   4243 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            atom   4245 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+  chrome-sandbox   4247 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            atom   4248 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            atom   4250 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            atom   4278 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            atom   4298 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            atom   4363 [31mNo RELRO         [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+ gnome-keyring-d   4397 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+   gvfsd-network   4594 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+     gvfsd-dnssd   4607 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            sudo   4649 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+              su   4650 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            bash   4651 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         python3   4665 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [31mNo PIE               [m   
+        mousepad   4729 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+             Web         Content   4759 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+              sh   4889 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         haveged    588 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            cron    590 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+     dbus-daemon    591 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+  NetworkManager    592 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         polkitd    595 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+        rsyslogd    597 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+          smartd    599 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+  systemd-logind    601 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+          celery    602 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [31mNo PIE               [m   
+          celery    604 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [31mNo PIE               [m   
+          celery    605 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [31mNo PIE               [m   
+          celery    606 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [31mNo PIE               [m   
+          celery    607 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [31mNo PIE               [m   
+    ModemManager    697 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+  wpa_supplicant    715 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+          mongod    853 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+         lightdm    891 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+            Xorg    903 [33mPartial RELRO    [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+          agetty    904 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+    rtkit-daemon    956 [32mFull RELRO       [m [32mCanary found         [m  [32mNX enabled [m   [32mPIE enabled          [m   
+[H[2J[3J[2;7H[2;39m┌─────────────────────────────────────────────────────────────┐[m[3;7H[2;39m│[m[3;69H[2;39m│[m[4;7H[2;39m│[m           [1;31mΦ[m [2;32motseca[m [1;37mv1.0.5[m [1;41msecurity audit script[m[4;69H[2;39m│[m[5;7H[2;39m│[m[5;69H[2;39m│[m[6;7H[2;39m│[m        [1;37mProject:[m [2;37mhttps://github.com/trimstray/otseca[m[6;69H[2;39m│[m[7;7H[2;39m│[m[7;69H[2;39m│[m[8;7H[2;39m│[m               [0;36mDebian GNU/Linux, CentOS Linux[m[8;69H[2;39m│[m[9;7H[2;39m│[m[9;69H[2;39m│[m[10;7H[2;39m└─────────────────────────────────────────────────────────────┘[m[12;7H
+[2;3;38m   °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°[m
+
+  -- [ [1;1;34mInit environment[m ] --
+
+(B[m     [2;2;37m•[m [1;1;38mload otseca.conf[m
+     [2;2;37m•[m [1;1;38mset output directory: /home/ar/Monday/otseca/bin/../data/output[m
+     [2;2;37m•[m [1;1;38mset dump directory: dump.1598681675[m
+     [2;2;37m•[m [1;1;38mset log file: dump.log[m
+
+[2;3;38m   °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°[m
+
+  -- [ [1;1;34mDump system information[m ] --
+
+(B[m     [0;1;36m×[m task: [1;1;33mSYSTEM[m
+     ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38muname -a[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38muptime[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mlsb_release -a[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mcat /proc/cpuinfo[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mps -auxenf[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^\s*linux" in /boot/grub/grub.*[m» ▒(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mlspci[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mlsblk[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mdf -H[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mmount[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38msestatus[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mcat /etc/issue[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mcat /etc/issue.net[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mcat /etc/motd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mprintenv[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mcrontab -u root -l[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m
+     [0;1;36m×[m task: [1;1;33mKERNEL[m
+     ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mlsmod[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mfs.suid_dumpable != 1[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mkernel.randomize_va_space != 0[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.ip_forward != 1[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.all.send_redirects != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.default.send_redirects != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.all.accept_redirects != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.default.accept_redirects != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.all.accept_source_route != 1[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.default.accept_source_route != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.all.secure_redirects != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.default.secure_redirects != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.all.log_martians != 1[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.default.log_martians != 1[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.icmp_echo_ignore_broadcasts != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.icmp_ignore_bogus_error_responses != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.all.rp_filter != 1[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.conf.default.rp_filter != 1[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv4.tcp_syncookies != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv6.conf.all.accept_ra != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv6.conf.default.accept_ra != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv6.conf.all.accept_redirects != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mnet.ipv6.conf.default.accept_redirects != 1[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m
+     [0;1;36m×[m task: [1;1;33mPERMISSIONS[m
+     ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mls -l /tmp[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mls -l /etc/rc*.d[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/hosts.allow[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/hosts.deny[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/boot/grub/grub.cfg[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/securetty[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/inittab[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/fstab[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/bashrc[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/profile[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/default/useradd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/sysctl.conf[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"hard in core"[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"hard in core"[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mpam_wheel.so in /etc/pam.d/su[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mwheel in /etc/group[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/pam.d/system-auth[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/pam.d/sshd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/pam.d/su[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/passwd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/shadow[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/gshadow[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/group[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/login.defs[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/sudoers[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mawk -F : '{print $1 ":" $3 ":" $7}' /etc/passwd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mawk -F : '($2 == "" )' /etc/shadow[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m'^+:' in /etc/passwd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m'^+:' in /etc/shadow[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m'^+:' in /etc/group[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"PASS_MIN_DAYS\|PASS_WARN_AGE" in /etc/login.defs[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mchage --list operator[m» ▒(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mchage --list nobody[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^root" in /etc/passwd[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38museradd -D | grep INACTIVE [m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^UMASK=077" in /etc/bashrc[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^umask=077" in /etc/bashrc[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"umask in *[0-7]"[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/cron.d[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/crontab[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/cron.hourly[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/cron.daily[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/cron.weekly[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/cron.monthly[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m
+     [0;1;36m×[m task: [1;1;33mSERVICES[m
+     ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mservice --status-all[m» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38msystemctl list-units[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> rsync[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> avahi-daemon[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> cups[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> dhcpd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> slapd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> nfs[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> rpcbind[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> named[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> vsftpd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> httpd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> dovecot[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> smb[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> snmpd[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> auditd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> rsyslog[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mchck:[m [0;0;38mservice -> syslog-nd[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mmax_log_file in /etc/audit/auditd.conf[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mspace_left_action in /etc/audit/auditd.conf[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38maction_mail_acct in /etc/audit/auditd.conf[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38madmin_space_left_action in /etc/audit/auditd.conf[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mmax_log_file_action in /etc/audit/auditd.conf[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mtime-change in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38midentity in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38msystem-locale in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mMAC-policy in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mlogins in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38msession in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mperm_mod in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38maccess in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mmounts in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mdelete in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mscope in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mactions in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38mmodules in /etc/audit/audit.rules[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^*.*[^I][^I]*@" in /etc/syslog.conf[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mls -l /etc/rsyslog.conf[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mls -l /etc/syslog.conf[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mls -l /etc/ssh[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^Protocol" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^LogLevel" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^X11Forwarding" in /etc/ssh/sshd_config[m(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^MaxAuthTries" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^IgnoreRhosts" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^HostbasedAuthentication" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^PermitRootLogin" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^PermitEmptyPasswords" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^PermitUserEnvironment" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^Ciphers" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^MACs" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^ClientAliveInterval" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^ClientAliveCountMax" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^LoginGraceTime" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^AllowGroups" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^DenyUsers" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^DenyGroups" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^Banner" in /etc/ssh/sshd_config[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mstat:[m [0;0;38m/etc/ntp.conf[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^restrict" in /etc/ntp.conf[m» ▒(B[m    								 [ [1;1;41mTRUE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^server" in /etc/ntp.conf[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"^password" in /etc/grub.conf[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mgrep:[m [0;0;38m"{" in /etc/logrotate.d/syslog[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mfind /etc/httpd/ -name ".conf" -print[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mfind /etc/httpd/ -name ".load" -print[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mfind /etc/apache/ -name ".conf" -print[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mfind /etc/apache/ -name ".load" -print[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mapachectl -S[m» ▒» ▓» █» ░» ▒» ▓» █(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mapachectl -M[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m
+     [0;1;36m×[m task: [1;1;33mNETWORK[m
+     ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mhostname -f[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mifconfig -a[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38miwconfig[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mnetstat -tunap[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mnetstat -rn[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38miptables -nL -v[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38miptables -nL -v -t nat[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38miptables -S[m(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mlsof -ni[m» ▒» ▓(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m
+     [0;1;36m×[m task: [1;1;33mDISTRO[m
+     ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mcat /etc/debian-release[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mcat /etc/debian_version[m» ▒(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mdpkg-query -f "setroubleshoot"[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mdpkg-query -f "prelink"[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mdpkg-query -f "mcstrans"[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mdpkg-query -f "libselinux"[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mdpkg-query -f "xorg-x11*"[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mdpkg-query -f "iptables"[m(B[m    								 [ [1;1;33mWARN[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mdpkg -l[m» ▒» ▓(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m    [1;0;36m [m [2;2;37m•[m [2;2;38mexec:[m [0;0;38mapt-get --just-print upgrade[m» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █» ░» ▒» ▓» █(B[m    								 [ [1;2;32mDONE[m ] 
+(B[m
+[2;3;38m   °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°[m
+
+  -- [ [1;1;34mGenerate html report[m ] --
+
+(B[m     [2;2;37m•[m [1;1;38mset format: html[m
+     [2;2;37m•[m [1;1;38mcreate output log[m
+     [2;2;37m•[m [1;1;38mcreate output report[m
+     [2;2;37m•[m [1;1;38mdelete temporary files[m
+

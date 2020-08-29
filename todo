@@ -1,0 +1,18 @@
+Off-Sec module
+	include tools::
+		website name taker for spoofcheck
+		add wikileaker :: https://github.com/jocephus/WikiLeaker
+		add git-hunt:: https://github.com/d1vious/git-wild-hunt
+		add s3 scanner:: https://github.com/sa7mon/S3Scanner
+		add pwndb:: https://github.com/davidtavarez/pwndb/
+
+Self-chek module
+	include tools::
+		APTSimulator:: https://github.com/NextronSystems/APTSimulator
+		Caldera:: https://github.com/mitre/caldera
+		MalwLess:: https://github.com/n0dec/MalwLess
+		atomic-red-team:: https://github.com/redcanaryco/atomic-red-team
+		metta:: https://github.com/uber-common/metta
+		RTA:: https://github.com/endgameinc/RTA
+
+integerate darkowl

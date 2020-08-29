@@ -1,0 +1,28 @@
+Note: all the below mentioned tools must be fully set up on the target server manually. External repos
+such as spoofcheck cloud enum flightsim's repos are in this folder. Follow each instruction respectively
+
+python3
+golang
+bash 
+
+nmap
+ping
+dirb
+hydra
+enum4liniux
+searchsploit
+shodan
+nikto
+rockyou
+spoofcheck
+cloud_enum
+
+
+flightsim
+linux exploit suggester
+checksec
+lynis
+otseca
+
+pip3 install discord.py
+pip3 install -U python-dotenv
