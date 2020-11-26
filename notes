@@ -1,0 +1,9 @@
+keep rockyou.txt 
+nmap 
+dirb 
+hydra
+enum4linux
+spoofcheck/ pip3 install requirements.txt
+searchsploit
+shodan
+
